@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Primary*/
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    /*Neutral*/
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background:var(--Cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.perfume-page{
+    background: var(--White);
+    width: 270px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px;
+}
+img{
+    max-width:270px;
+    height: 400px;
+    float:left;
+    border-radius: 10px 0px 0px 10px;
+    position:relative;
+}
+
+.topic{
+    color: var(--Darkgrayishblue);
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.head1{
+    font-size:xx-large;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--Verydarkblue);
+    padding-top: 1rem;
+}
+
+.para1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--Darkgrayishblue);
+    line-height: 20px;
+    font-size:small;
+    padding-top: 1rem;
+}
+
+.rateBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.rateBox h1{
+    font-family:'Fraunces',serif;
+    color: var(--Darkcyan);
+}
+
+.oldRate{
+    text-decoration: line-through;
+    color: var(--Darkgrayishblue);
+}
+
+.cartBox{ 
+    background: var(--Darkcyan);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.cartBox .text{
+    color: var(--White);
+}
+.cartBox:hover{
+    background:hsl(157, 37%, 22%);
+}
+
