@@ -1,5 +1,5 @@
 # Frontend Mentor - Product preview card component
-C:\Users\hp\Desktop\frontend mentor projects\6.product preview card component\design\desktop-design.jpg
+![desktop-design](https://github.com/Rosanraj/6.Product-preview-card/assets/131958853/7ff7532d-b15a-4044-8179-6909926fdc5a)
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
